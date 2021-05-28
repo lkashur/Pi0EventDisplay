@@ -9,3 +9,10 @@ The module is ran using the FHiCL files [runPi0EventDisplay.fcl](https://github.
 ```
 lar -c runPi0EventDisplay.fcl -S <text file of input files>
 ```
+
+# View specific event using Python scripts
+Running EventStigator.py will generate the plot for the selected event.  The scripts Pi0.py and EventPlotting.py will also need to be present in the working directory.
+
+```
+python3 EventStigator.py -id <event number:z-vertex> Pi0EventDisplay.root
+```
