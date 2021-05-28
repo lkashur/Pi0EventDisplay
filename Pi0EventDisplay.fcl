@@ -1,0 +1,27 @@
+#include "calorimetry_dune10kt.fcl"
+BEGIN_PROLOG
+
+proto_beam_example:
+{
+   module_type:             "Pi0EventDisplay"
+   BeamModuleLabel:         "beamevent"
+   CalorimetryTag:          "pandoracalo"
+   ParticleIDTag:           "pandorapid"
+   TrackerTag:              "pandoraTrack"
+   ShowerTag:               "pandoraShower"
+   HitTag:                  "gaushit"
+   SpcPntTag:               "pandora"
+   SimTag:                  "largeant"
+   doExtrahits:             false
+   ShowerCalorimetryTag:    "emshowercalo"
+   PFParticleTag:           "pandora"
+   GeneratorTag:            "generator"
+   Verbose:                 false
+   CalorimetryAlg:          @local::dune10kt_calorimetryalgmc
+}
+
+#services.Geometry: @local::dune10kt_1x2x6_geo
+#services.Geometry.SkipConfigurationCheck: true
+
+END_PROLOG
+
