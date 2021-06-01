@@ -456,7 +456,7 @@ def plot_pion(pion, save_fig=False):
     
     if save_fig:
         fig.savefig(
-            f"/home/lane/root_macros/dunecollab/pion_ev_{pion.evNum}_vtx_{vertex}"
+            f"pion_ev_{pion.evNum}_vtx_{vertex}"
         )
     else:
         fig.show()
