@@ -11,7 +11,7 @@ lar -c runPi0EventDisplay.fcl -S <text file of input files>
 ```
 
 # View specific event using Python scripts
-To view a specific event, the event number and z-coordinate of the true interaction vertex is needed.  The script <> will create a text file containing event numbers and z-coordinates given the output root file from the previous step.
+To view a specific event, the event number and z-coordinate of the true interaction vertex is needed.  The script [getEventList.py](https://github.com/lkashur/Pi0EventDisplay/blob/main/getEventList.py) will create a text file containing event numbers and z-coordinates given the output root file from the previous step.
 
 ```
 python3 getEventList.py Pi0EventDisplay.root
