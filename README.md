@@ -27,3 +27,6 @@ python3 EventStigator.py -id <event number:z-vertex> Pi0EventDisplay.root
 ```
 
 You will then be prompted to press "Enter" to exit the display, or press "s" to save the display (and then exit).
+
+
+For any questions, please email me at lkashur@colostate.edu or message me on the DUNE Slack workspace.
