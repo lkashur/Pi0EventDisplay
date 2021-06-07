@@ -20,7 +20,7 @@ To view a specific event, the event number and z-coordinate of the true interact
 python3 getEventList.py Pi0EventDisplay.root
 ```
 
-Running EventStigator.py will then match true photons to reconstructed showers and generate the plot for an event selected from the text file.  The scripts Pi0.py and EventPlotting.py will also need to be present in the working directory.
+Running EventStigator.py will then match true photons to reconstructed showers and generate the plot for an event selected from the text file.  The scripts Pi0.py, EventPlotting.py, and Colors.py will also need to be present in the working directory.
 
 ```
 python3 EventStigator.py -id <event number:z-vertex> Pi0EventDisplay.root
